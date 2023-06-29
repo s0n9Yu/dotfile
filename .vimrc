@@ -1,6 +1,7 @@
 " use the monokai colorscheme
 colorscheme monokai
 
+nnoremap <SPACE> <Nop>
 let mapleader = " "
 
 " Fast saving
@@ -112,8 +113,8 @@ set signcolumn=yes
 set colorcolumn=80
 
 " yank/paste in system clipboard
-nnoremap <leader>y +y
-nnoremap <leader>p +p
+noremap <leader>y "*y
+noremap <leader>p "*p
 
 " transparent bg
 ""autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
