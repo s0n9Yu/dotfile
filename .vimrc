@@ -127,3 +127,6 @@ endfunction
 
 " set syntax highlight on
 syntax enable
+
+" enable character increment
+set nrformats+=alpha
