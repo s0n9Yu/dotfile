@@ -130,3 +130,6 @@ syntax enable
 
 " enable character increment
 set nrformats+=alpha
+
+" enable auto indent
+filetype indent on
